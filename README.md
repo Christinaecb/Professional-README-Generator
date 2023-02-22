@@ -1,2 +1,3 @@
 # Professional-README-Generator
-Challenge 9 Assignment
+
+[How to create a Professiolan README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
