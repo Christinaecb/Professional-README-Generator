@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
+// An array of questions for the user to answer
 const questions = [
     {
       type: 'input',
@@ -57,7 +58,13 @@ const questions = [
   ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// writeToFile function takes in a file name and data and uses Node.js 'fs' module to write data to the specified file
+// If there's an error it should be logged to the console
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, date, (err) =>
+    err ? console.error(err) : console.log('README.md file created')
+    );
+}
 
 // TODO: Create a function to initialize app
 function init() {}
