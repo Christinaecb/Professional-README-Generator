@@ -1,30 +1,57 @@
-# test
+# Professional-README-Generator
+
   
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
+    
+
   ## Description
-  test
+  
+   Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
   
   ## Table of Contents
+  
   - [Installation](#installation)
   - [Usage](#usage)
+  
+  [MIT](https://choosealicense.com/licenses/MIT)
+    
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [License](#license)
   - [Questions](#questions)
   
   ## Installation
-  test
+  
+  What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
   
   ## Usage
-  test
+  
+  Provide instructions and examples for use. Include screenshots as needed.
+
+  ## Screenshot
+  ![Screenshot of Project](./assets/images/Screenshot.JPG)
+
+  ## Video Demo
+  ![Test](./assets/images/Untitled_%20Feb%2027%2C%202023%203_18%20PM.webm)
+  
+  
+  ## [License](#table-of-contents)
+  The application is covered under the following license:
+  
+  [MIT](https://choosealicense.com/licenses/MIT)
+    
+    
   
   ## Contributing
-  test
+  
+  List your collaborators, if any, with links to their GitHub profiles.
   
   ## Tests
-  test
   
-  ## License
-  This project is licensed under the MIT license.
+  Go the extra mile and write tests for your application. Then provide examples on how to run them.
   
   ## Questions
-  If you have any questions, please feel free to reach out to me on GitHub (Christinaecb) or via email (christina.e.c.barberi@gmail.com).
+  
+  If you have any questions, please feel free to contact me:
+  
+  - Email: christina.e.c.barberi@gmail.com
+  - GitHub: [undefined](https://github.com/undefined)
