@@ -33,8 +33,7 @@
   ![Screenshot of Project](./assets/images/Screenshot.JPG)
 
   ## Video Demo
-  ![Test](./assets/images/Untitled_%20Feb%2027%2C%202023%203_18%20PM.webm)
-  
+ [Untitled_ Feb 27, 2023 3_18 PM.webm](https://user-images.githubusercontent.com/119627874/221679617-e6054d07-588c-4002-a208-6c7e8d741136.webm)
   
   ## [License](#table-of-contents)
   The application is covered under the following license:
