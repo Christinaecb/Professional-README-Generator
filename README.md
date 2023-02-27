@@ -23,7 +23,9 @@
   
   ## Installation
   
-   Type "npm i inquirer" into the terminal.
+   Click the repository link below. Download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal.  Open the file in VS Code or whatever editor you work with. Open the terminal in VS Code and make sure you’re in the root directory ‘Professional-README-Generator. Type "npm i inquirer" into the terminal to install inquirer. You're now ready to run the app! Enjoy!
+
+   [README Generator Download Link](https://github.com/Christinaecb/Professional-README-Generator)
   
   ## Usage
   
@@ -49,7 +51,7 @@
   
   ## Tests
   
-  No tests have been done
+  To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder ‘professional-readme-generator’, and run ‘node index.js’. Answer the prompts and view the preview of the ‘generated-README.md’ file.
   
   ## Questions
   
