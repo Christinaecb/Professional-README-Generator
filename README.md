@@ -26,6 +26,12 @@
   ## Usage
   
   Provide instructions and examples for use. Include screenshots as needed.
+
+  ## Screenshot
+  ![Screenshot of Project](./assets/images/Screenshot.JPG)
+
+  ## Video Demo
+  ![Test](./assets/images/Untitled_%20Feb%2027%2C%202023%203_18%20PM.webm)
   
   
   ## [License](#table-of-contents)
