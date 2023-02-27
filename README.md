@@ -56,4 +56,4 @@
   If you have any questions, please feel free to contact me:
   
   - Email: christina.e.c.barberi@gmail.com
-  - GitHub: [Christinaecb](https://github.com/undefined)
+  - GitHub: [Christinaecb](https://github.com/Christinaecb)
