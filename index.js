@@ -62,63 +62,18 @@ const questions = [
 // writeToFile function takes in a file name and data and uses Node.js 'fs' module to write data to the specified file
 // If there's an error it should be logged to the console
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('README.md file created')
-    );
+  fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('Success! Your README.md file has been generated!')
+  );
 }
 
 // TODO: Create a function to initialize app
-// The `init()` function prompts the user with a series of questions using `inquirer`, takes the users answers... cont bellow
-// And generates a README file based on those answers
 function init() {
-    inquirer.prompt(questions).then((answers) => {
-      const {
-        title,
-        description,
-        installation,
-        usage,
-        contributing,
-        tests,
-        license,
-        github,
-        email,
-      } = answers;
-  
-      const readmeTemplate = `# ${title}
-  
-  ## Description
-  ${description}
-  
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Questions](#questions)
-  
-  ## Installation
-  ${installation}
-  
-  ## Usage
-  ${usage}
-  
-  ## Contributing
-  ${contributing}
-  
-  ## Tests
-  ${tests}
-  
-  ## License
-  This project is licensed under the ${license} license.
-  
-  ## Questions
-  If you have any questions, please feel free to reach out to me on GitHub (${github}) or via email (${email}).`;
-  
-      writeToFile('README.md', readmeTemplate);
-    });
-  }
+  inquirer.prompt(questions).then((data) => {
+    const markdown = generateMarkdown(data);
+    writeToFile('README.md', markdown);
+  });
+}
 
 // Function call to initialize app
 init();
-
